@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+body {
+    background-color: rgba(58, 146, 142, 0.808);
+}
+
+ul li:first-child {
+    font-family: "Truculenta", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: bold;
+    font-style: normal;
+    /* font-variation-settings: */
+    font-size: 65px;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top: 0;
+
+}
+
+#nav-bar ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+ header{
+    background-color: blueviolet;
+    /* scroll-margin-top: 150px; */
+ }
+
+nav{
+    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.sub {
+    /* top: 0; */
+    text-align: center;
+    margin-top: 105px;
+}
+
+p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    /* display: flex; */
+    /* grid-template-columns: (4fr, 60px); */
+    margin: auto;
+    /* gap: 100px; */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-img {
+    /* padding: 15px; */
+    width: 100vw;
+    height: 100px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+form {
+    font-family: "Wix Madefor Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 15px;
+}
+
+form div {
+    line-height: 35px;
+}
+
+.description p {
+    text-align: center;
+}
+
+div{
+    scroll-margin-top: 500px;
+}
+
+
+.prod-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+}
+
+@media (max-width:400px){
+    nav{
+        display: flex;
+    }
+    li{
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    .sub{
+        margin-top: 25px;
+    }
+}
